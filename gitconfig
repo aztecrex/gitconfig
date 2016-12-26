@@ -1,0 +1,24 @@
+[user]
+	name = Greg Wiley
+	email = aztec.rex@jammm.com
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[core]
+	excludesfile = ~/.gitignore
+
+[alias]
+	ff = merge --ff-only
+        pff = pull --ff-only
+	backup = push --all origin
+	sync = fetch upstream
+	dlog = log --decorate
+	ilog = log --oneline --decorate
+        glog = log --oneline --decorate --graph
+	hist = log --oneline --decorate --all --graph
+        ifetch = fetch -p --no-tags
+
+[push]
+	default = simple
+
